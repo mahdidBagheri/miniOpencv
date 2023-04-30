@@ -11,7 +11,6 @@ class ImageReader
         
         let image_array = []
 
-        
     }
 }
 

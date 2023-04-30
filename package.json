@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/mahdidBagheri/miniOpencv/issues"
   },
-  "homepage": "https://github.com/mahdidBagheri/miniOpencv#readme"
+  "homepage": "https://github.com/mahdidBagheri/miniOpencv#readme",
+  "devDependencies": {}
 }
