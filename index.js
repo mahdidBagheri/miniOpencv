@@ -5,9 +5,9 @@ class Opencv
 {
     static imread(link)
     {
-        if(typeof(link) == "canvas")
+        if(typeof(link) == "string")
         {
-            let cv_image = ImageLoader.read_image_by_canvas(canvas)
+            let cv_image = ImageLoader.read_image_by_canvas(link)
         }
 
     }
@@ -17,3 +17,5 @@ class Opencv
 
     }
 }
+
+module.exports = {Opencv}
